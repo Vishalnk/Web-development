@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 h2 {
 	text-align: center;
 	font-family: Comic Sans MS, cursive, sans-serif;
@@ -15,21 +19,15 @@ h3 {
 
 p {
 	text-align: justify;
-	clear:right;
-	padding:10px 10px 0px 10px;
+	clear:both;
+	margin:0;
+	padding:10px ;
 	font-family: Comic Sans MS, cursive, sans-serif;
 }
 
 .a,.b,.c {
 	border:2px solid black;
-	width: 90%;
-	height: auto;
-	margin: 50px;
-	margin-left:auto;
-	margin-right:  auto;
 	background-color: #AEB6BF;
-	float: left;
-	
 }
 .fish {
 	background-color: #A52A2A;
@@ -37,32 +35,32 @@ p {
 .sushi {
 	background-color: #DEB887;
 }
-.row {
-	width:100%;
-}
+
 @media (min-width: 992px){
-	.col-lg {
+	.col-lg, .col-md, .col-sml {
 		width:33%;
 		float: left;
+		padding:10px;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px){
-	.col-md {
+	.col-lg, .col-md {
 		width:50%;
 		float: left;
+		padding:10px;
 	}
-	.col-md2 {
+	.col-sml {
 		width:100%;
 		float: left;
-	}
-	.c {
-		width:95%;
+		padding:10px;
+		 
 	}
 }
 @media (max-width: 767px){
 	
-	.col-sml {
+	.col-lg,.col-md,.col-sml {
 		width:100%;
 		float: left;
+		padding:10px;
 	}
 }
