@@ -70,3 +70,8 @@ a:hover {
 		visibility: hidden;
 	}
 }
+@media (min-width: 768px) {
+	#but{
+		visibility: hidden;
+	}
+}
