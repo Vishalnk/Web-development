@@ -1,4 +1,3 @@
-
 ( function (){
       var names = ["yaakov", "john", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "jim"];
 
