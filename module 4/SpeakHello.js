@@ -7,5 +7,3 @@
 	}
 	window.helloSpeaker=helloSpeaker;
 })(window);
-
-
