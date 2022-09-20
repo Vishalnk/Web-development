@@ -1,1 +1,2 @@
 Git is a Version Control System.
+Working on Mac is kinda amazing.
