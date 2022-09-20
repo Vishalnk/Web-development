@@ -1,1 +1,1 @@
-I added this file to check how pull request works. 
+Git is a Version Control System.
